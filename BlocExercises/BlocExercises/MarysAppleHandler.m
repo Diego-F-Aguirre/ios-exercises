@@ -14,9 +14,12 @@
     NSString *itemToReturn;
 
     /* WORK HERE */
+    BOOL itemMaryCanPurchasForDollars = YES;
+    
+    
     
     NSLog(@"For $%ld, Mary can: %@", (long)dollars, itemToReturn);
-    return itemToReturn;
+    return @"get out of my store";
 }
 
 - (NSUInteger) dollarCostForAppleFlavoredVodka {

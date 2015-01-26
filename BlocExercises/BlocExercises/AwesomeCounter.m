@@ -37,9 +37,6 @@
     
  
     
-    
-  //////////
-    
     NSInteger lowNumber = 0;
     NSInteger highNumber = 0;
     NSInteger counter = 0;

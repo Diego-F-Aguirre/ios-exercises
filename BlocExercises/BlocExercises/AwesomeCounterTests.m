@@ -53,5 +53,5 @@
     NSString *actualString = [self.counter stringWithNumbersBetweenNumber:lowNumber andOtherNumber:highNumber];
     XCTAssertEqualObjects(expectedString, actualString, @"strings differed");
 }
-
 @end
+

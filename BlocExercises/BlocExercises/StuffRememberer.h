@@ -12,7 +12,9 @@
 
 
 @property (nonatomic, strong) NSMutableArray *rememberedArray;
+
 @property (copy) NSMutableArray *copiedArray;
+
 @property (assign) CGFloat *floatedNumber;
 
 /*

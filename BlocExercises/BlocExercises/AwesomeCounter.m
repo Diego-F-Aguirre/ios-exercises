@@ -13,29 +13,6 @@
 - (NSString *) stringWithNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
     /* WORK HERE */
     
-//    NSString *numberList = @"";
-    
-//
-//    for (number; number <= otherNumber; ++number) {
-//        [numberList appendString:[NSString stringWithFormat:@"%ld", (long)number]];
-//    }
-//    //intermediate result
-//    
-//    
-//    return numberList;
-//    
-//    
-//    
-//    for (number = 9 , otherNumber = 4; number >= otherNumber; --number) {
-//        [numberList appendString:[NSString stringWithFormat:@"%ld", (long)number]];
-//    }
-//    //another result
-//    
-//    //concatenate the two
-//    
-//    return numberList;
-    
- 
     
     NSInteger lowNumber = 0;
     NSInteger highNumber = 0;

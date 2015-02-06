@@ -14,7 +14,7 @@ func favoriteCheeseStringWithCheese(cheese: String) -> String {
 let fullSentence = favoriteCheeseStringWithCheese("cheddar")
 // Make fullSentence say "My favorite cheese is cheddar."
 
-let favoriteCheese = "My favorite cheese is cheddar."
+let favoriteCheese = "My favorite cheese is cheddar." 
 
 /*
 
@@ -86,46 +86,66 @@ let characters = [worf, picard]
 func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String>>) -> Array<String> {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
+    var drinksArray = [String]()
     
+    for character in characters {
+        drinksArray.append(character["favorite drink"]!)
+    }
     
-    return []
+    return drinksArray
+}
+   
+
+
+
+    /*
+    
+    Functions
+    
+    */
+    
+    // Make a function that inputs an array of strings and outputs the strings separated by a semicolon
+    
+    let strings = ["milk", "eggs", "bread", "challah"]
+    
+    // WORK HERE - make your function and pass `strings` in
+    var newString = strings
+    
+    func groceries(Array: String){
+        for string in newString{
+            if string == "," {
+                newString.append(";")
+            }
+            
+        }
+        //println \(strings)
+       println("\(newString)")
+    }
+
+
+
+
+    let expectedOutput = "milk;eggs;bread;challah"
+    
+    /*
+    
+    Closures
+    
+    */
+    
+    let cerealArray = ["Golden Grahams", "Cheerios", "Trix", "Cap'n Crunch OOPS! All Berries", "Cookie Crisp"]
+    
+    // Use a closure to sort this array alphabetically
+    
+    // WORK HERE
+
+func orderCereal(s1: String, s2: String) -> Bool{
+    return s1 < s2
 }
 
-let favoriteDrinks = favoriteDrinksArrayForCharacters(characters)
+sorted(cerealArray,orderCereal)
 
-favoriteDrinks
-
-/*
-
-Functions
-
-*/
-
-// Make a function that inputs an array of strings and outputs the strings separated by a semicolon
-
-let strings = ["milk", "eggs", "bread", "challah"]
-
-// WORK HERE - make your function and pass `strings` in
-
-func groceries(Array: String){
-    //println \(strings)
-}
-
-let expectedOutput = "milk;eggs;bread;challah"
-
-/*
-
-Closures
-
-*/
-
-let cerealArray = ["Golden Grahams", "Cheerios", "Trix", "Cap'n Crunch OOPS! All Berries", "Cookie Crisp"]
-
-// Use a closure to sort this array alphabetically
-
-// WORK HERE
-
-let cerealSorted = sorted(cerealArray)
+    let cerealSorted = sorted(cerealArray)
 
 
 

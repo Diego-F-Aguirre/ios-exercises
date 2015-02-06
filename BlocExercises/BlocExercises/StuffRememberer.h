@@ -15,7 +15,7 @@
 
 @property (copy) NSMutableArray *copiedArray;
 
-@property (assign) CGFloat *floatedNumber;
+@property (assign) CGFloat rememberedFloat;
 
 /*
  

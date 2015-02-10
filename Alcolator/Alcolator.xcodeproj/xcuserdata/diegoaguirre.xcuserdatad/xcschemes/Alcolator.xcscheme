@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC1872571A84F52A00E8EA79"
+               BlueprintIdentifier = "BCBAC46E1A89988600DA93F6"
                BuildableName = "Alcolator.app"
                BlueprintName = "Alcolator"
                ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC1872701A84F52A00E8EA79"
+               BlueprintIdentifier = "BCBAC4871A89988600DA93F6"
                BuildableName = "AlcolatorTests.xctest"
                BlueprintName = "AlcolatorTests"
                ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BC1872701A84F52A00E8EA79"
+               BlueprintIdentifier = "BCBAC4871A89988600DA93F6"
                BuildableName = "AlcolatorTests.xctest"
                BlueprintName = "AlcolatorTests"
                ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC1872571A84F52A00E8EA79"
+            BlueprintIdentifier = "BCBAC46E1A89988600DA93F6"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -72,10 +72,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC1872571A84F52A00E8EA79"
+            BlueprintIdentifier = "BCBAC46E1A89988600DA93F6"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">
@@ -90,10 +91,11 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BC1872571A84F52A00E8EA79"
+            BlueprintIdentifier = "BCBAC46E1A89988600DA93F6"
             BuildableName = "Alcolator.app"
             BlueprintName = "Alcolator"
             ReferencedContainer = "container:Alcolator.xcodeproj">

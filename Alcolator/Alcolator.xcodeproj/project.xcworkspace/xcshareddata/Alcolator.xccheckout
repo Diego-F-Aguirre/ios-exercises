@@ -5,13 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1F129F0E-9B0D-4BD5-8D8E-88187BC685FE</string>
+	<string>D5720776-92F8-4225-B9B1-320A01E78CA2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Alcolator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>5450119CCA2DD394E9078F73A3071326A1F877FC</key>
-		<string>https://github.com/Diego-F-Aguirre/ios-exercises.git</string>
+		<string>https://github.com/Diego-F-Aguirre/alcolator</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Alcolator/Alcolator.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Diego-F-Aguirre/ios-exercises.git</string>
+	<string>https://github.com/Diego-F-Aguirre/alcolator</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
